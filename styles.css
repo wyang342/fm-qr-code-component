@@ -2,6 +2,7 @@ html,
 body {
   background-color: #d5e1ef;
   height: 100%;
+  font-family: "Outfit", sans-serif;
 }
 
 #container {
@@ -9,15 +10,32 @@ body {
   justify-content: center;
   align-items: center;
   height: 100%;
+  width: 100%;
 }
 
-#card {
+.card {
   background-color: white;
   width: 320px;
   height: 497px;
+  border-radius: 20px;
 }
 
 #qr-code {
   width: 288px;
-  margin: auto;
+  margin: 16px;
+  border-radius: 10px;
+}
+
+.title {
+  font-size: 22px;
+  color: #1f314f;
+  text-align: center;
+  margin: 16px;
+}
+
+.description {
+  font-size: 15px;
+  color: #7d889e;
+  text-align: center;
+  margin: 16px;
 }
